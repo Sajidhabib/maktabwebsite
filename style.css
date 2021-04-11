@@ -1,0 +1,472 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.upper-header{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.left-one{
+    width: 50%;
+    height: 50px;
+    display: flex;
+}
+.right-one{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    /* float: lefr; */
+
+}
+i{
+    color: green;
+}
+.right-one ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+.right-one ul li i{
+    color: white;
+}
+.right-one ul {
+    margin: 15px;
+}
+.social{
+    background-color: rgb(63, 62, 62);
+}
+.email, .number{
+    width:35%;
+    color: white;
+    height: 50px;
+
+}
+.email p, .number p{
+   
+        margin: 15px;
+        margin-left: 20px;
+    
+}
+.navigation{
+    width: 100%;
+    height: 100px;
+    background-image: url('./images/bg.png');
+    display: flex;
+}
+.logo{
+    width: 30%;
+    height: 100px;
+}
+.logo img{
+    margin-left: 50px;
+    margin: 10px;
+}
+.menu{
+    width: 70%;
+    height: 100px;
+}
+.menu ul{
+    margin: 20px;
+}
+.menu ul li{
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 23px;
+    
+}
+.menu ul li a{
+    color: white;
+}
+.donation{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.main{
+    background-image: url('./images/slideone.jpg');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+
+    
+}
+.inner-cont{
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    opacity: .85;
+}
+.text{
+    z-index: 6;
+    color: white;
+    font-size: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+.input{
+    margin-top: 30px;
+    padding: 10px;
+    width: 30%;
+    background-image: url('./images/bg.png');
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+.clear{
+    clear: both;
+}
+.namaz{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+   display: flex;
+   
+}
+.caption{
+    width: 30%;
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+}
+.date{
+    color: green;
+}
+.aukat{
+    width: 70%;
+    background-color: lightcyan;
+    height: 100px;
+}
+.aukat ul li{
+    display: inline-block;
+    padding-left: 30px;
+    margin: 20px;
+    font-size: large;
+    font-weight: 220;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+.ri8{
+    width: 40%;
+    height: 300px;
+    padding: 30px;
+}
+.lef8{
+    width: 60%;
+    height: 300px;
+}
+.btn button{
+    background-color: black;
+    padding: 15px;
+    width: 220px;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.img{
+    width: 80%;
+    margin-top:30px ;
+    margin-left: 10px;
+    text-align: left;
+}
+.text-lef{
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 25px;
+    font-size: 20px;
+}
+.video{
+    width: 80%;
+    background-image: url('./images/video-img.jpg');
+    margin: auto;
+    height: 80vh;
+    padding: 190px;
+    margin-top: 50px;
+    /* position: absolute; */
+}
+.vimg{
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+    border: 5px solid black;
+    width: 15%;
+}
+.para{
+    background-image: url('./images/bg.png');
+    height: auto;
+    width: 50%;
+    color: white;
+    /* float: right; */
+    font-size: 20px;
+    padding: 10px;
+    line-height: 30px;
+    margin-left: 540px;
+}
+.bgimg{
+    width: 100%;
+    background-image: url('./images/service-detail-img.jpg');
+    /* padding: 50px; */
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    margin-top: 50px;
+}
+.overlay{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    opacity: .85;
+    height: 300px;
+
+}
+.services{
+    color: white;
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.services h1{
+    font-size: 60px;
+}
+.clear{
+    clear: both;
+}
+.main-card{
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.cards{
+    width: 30%;
+    /* height: 400px; */
+    background-image: url('./images/service-detail-img.jpg');
+    height: 50%;   
+    background-size: 100% 100%; 
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.contents-card{
+    width: 95%;
+    height: 350px;
+    border: 5px solid rgb(170, 165, 165);
+    
+}
+.inner{
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    margin-top: 180px;
+    text-align: center;
+}
+.inner h1{
+    color: green;
+}
+.ser-btn{
+    background-color: rgba(15, 15, 15, 0.781);
+    width: 18%;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.ser-btn a{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+.main-cart{
+    margin-top: 30px;
+    /* background-color: rebeccapurple; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+
+}
+.left-wala{
+    width: 40%;
+    height: 60px;
+    /* background-color: aqua; */
+    margin-left: 30px;
+    padding-left: 20px;
+}
+.left-wala span{
+    color: green;
+    font-weight: bold;
+}
+.center-wala{
+    width: 30%;
+    height: 60px;
+    /* background-color: rgb(170, 165, 165); */
+    margin-left: 40px;
+    text-align: center;
+    padding: 25px;
+}
+.center-wala span{
+    font-size: 15px;
+    background-color: lightgrey;
+    margin-top: 30px;
+    padding: 20px;
+    width: 80px;
+    
+}
+.center-wala span:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
+.main-boc{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    /* background-color: green; */
+    display: flex;
+}
+.left-side{
+    width: 60%;
+    height: 450px;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin: auto;
+}
+.des{
+    width: 100%;
+    height: 170px;
+    /* background-color: burlywood; */
+    padding: 20px;
+    display: flex;
+    margin-top: 5px;
+    border-top: 1px  dashed lightgray;
+}
+.img-desx{
+    width: 20%;
+    height: 150px;
+    margin-left: 20px;
+    /* background-color: yellowgreen; */
+}
+
+
+.text-desc{
+    width: 80%;
+    height: 150px;
+    /* background-color: blueviolet; */
+    padding: 30px;
+}
+.right-side{
+    width: 30%;
+    height: 550px;
+    background-color: aqua;
+    margin-left: 0px;
+    margin: auto;
+}
+.upper{
+    width:100%;
+    height: 250px;
+    padding-left: 30px;
+    background-image: url('./images/bg.png');
+    border-top: 10px solid black;
+
+}
+.chexain{
+    margin: 20px;
+    margin-left: 30px;
+    color:white;
+}
+.chexain p{
+    font-size: 20px;
+font-weight: bolder;
+}
+.buttons{
+    /* background-color: red; */
+    width:70%;
+    height: 50px;
+    margin-top: 60px;
+}
+.buttons span{
+    border: 2px solid white;
+    width: 0%;
+    height: 50px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.buttons span a i{
+    color: white;
+}
+.less{
+    height: 300px;
+}
+.less img{
+    width: 100%;
+    height: 300px;
+}
+.footer-img {
+    width: 100%;
+    height:100px;
+    /* background-color: aqua; */
+    margin-top: 50px;
+
+}
+.footer-img img{
+    width: 90%;
+    height:100%;
+}
+.foooter{ 
+    background-image: url('./images/bg.png');
+    height: 500px;
+    width: 100%;
+    padding: 40px;
+ } 
+ .inner-foter{
+     width: 70%;
+     background-color: red;
+     height: 350px;
+     margin: auto;
+
+ }
+ .contacts{
+     text-align: center;
+
+ }
+ .main-le{
+     display: flex;
+ }
+ .boxes{
+     background-color: blue;
+     width: 30%;
+     height: 150px;
+     margin-top:30px ;
+     margin-left: 10px;
+ }
